@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .container {
   max-width: 992px;
   margin: auto;
   padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 header {
@@ -21,7 +25,7 @@ header {
 
 main {
   // height: calc(100vh - 100px);
-  height: 1000px;
+  height: 2000px;
   background-color: #752424;
 }
 
@@ -30,6 +34,7 @@ main {
   width: 250px;
   height: 350px;
   padding: 10px;
+  margin: 40px;
   color: white;
   border: 1px solid #141313;
   border-radius: 10px;
@@ -41,9 +46,13 @@ main {
   -moz-box-shadow:    0px 1px 23px 0px rgba(255, 255, 255, 0.87);
   box-shadow:         0px 1px 23px 0px rgba(255, 255, 255, 0.87);
 
+
   img {
     max-width: 100%;
   }
 
+  h4 {
+    text-align: center;
+  }
 
 }

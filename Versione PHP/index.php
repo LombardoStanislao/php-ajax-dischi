@@ -1,6 +1,6 @@
 <?php
 
-  include _DIR_ .'dischi.php';
+  include 'dischi.php';
 
 ?>
 
@@ -27,9 +27,9 @@
 
           <div class="card">
             <img src="<?php echo $disco['poster']; ?>" alt="">
-            <h4> New Jersey </h4>
-            <p>Bon Jovi</p>
-            <small> 1988 </small>
+            <h4> <?php echo $disco['title']; ?> </h4>
+            <p><?php echo $disco['author']; ?></p>
+            <small> <?php echo $disco['year']; ?></small>
 
 
           </div>
