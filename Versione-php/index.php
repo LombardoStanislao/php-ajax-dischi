@@ -1,7 +1,5 @@
 <?php
-
-  include 'dischi.php';
-
+  include __DIR__ . '/dischi.php';
 ?>
 
 <!DOCTYPE html>
